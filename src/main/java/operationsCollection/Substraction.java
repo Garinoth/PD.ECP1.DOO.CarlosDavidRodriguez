@@ -1,8 +1,8 @@
 package operationsCollection;
 
-public class Subtraction extends Operation {
+public class Substraction extends Operation {
 
-    public Subtraction(int operator1, int operator2) {
+    public Substraction(int operator1, int operator2) {
         super(operator1, operator2);
     }
 
