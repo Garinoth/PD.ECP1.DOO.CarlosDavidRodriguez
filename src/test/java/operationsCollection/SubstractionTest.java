@@ -7,11 +7,11 @@ import org.junit.Test;
 
 public class SubstractionTest {
     
-    private Subtraction susbtraction;
+    private Substraction susbtraction;
     
     @Before
     public void before() {
-        this.susbtraction = new Subtraction(3, 5);
+        this.susbtraction = new Substraction(3, 5);
     }
 
     @Test

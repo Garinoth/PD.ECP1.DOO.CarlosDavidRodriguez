@@ -17,7 +17,7 @@ public class OperationsTest {
     @Test
     public void testTotal() {
         operations.add(new Summation(3, 6));
-        operations.add(new Subtraction(3, 2));
+        operations.add(new Substraction(3, 2));
         operations.add(new Multiplication(5, 7));
         assertEquals(45, this.operations.total(), 10e-1);
     }
@@ -25,7 +25,7 @@ public class OperationsTest {
     @Test
     public void testReset() {
         operations.add(new Summation(3, 6));
-        operations.add(new Subtraction(3, 2));
+        operations.add(new Substraction(3, 2));
         operations.add(new Multiplication(5, 7));
         operations.reset();
         assertEquals(0, this.operations.total(), 10e-1);
