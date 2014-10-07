@@ -8,8 +8,7 @@ public class Summation extends Operation {
 
     @Override
     public int operate() {
-        // TODO Auto-generated method stub
-        return 0;
+        return this.getOperator1() + this.getOperator2();
     }
 
 }
