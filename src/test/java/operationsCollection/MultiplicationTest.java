@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class MultiplicationTest {
+public class MultiplicationTest extends OperationTest {
     
     private Multiplication multiplication;
     
