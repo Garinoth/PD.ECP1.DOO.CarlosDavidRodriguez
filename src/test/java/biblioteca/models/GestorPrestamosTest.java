@@ -51,4 +51,13 @@ public class GestorPrestamosTest extends GestorTest<Prestamo> {
         assertEquals(2, this.gestor.getColleccion().size());        
     }
     
+    @Test
+    public void testIsPrestado() {
+        Usuario usuario = new Usuario("Knuckles");
+        Libro libro = new Libro("titulo", "autor", 0);
+        Prestamo prestamo = new Prestamo(usuario, libro);
+        this.gestor.add(prestamo);
+        assertTrue(this.gestor.isPrestado(libro));
+    }
+    
 }
