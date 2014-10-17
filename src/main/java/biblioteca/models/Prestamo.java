@@ -17,6 +17,14 @@ public class Prestamo {
         this.fechaInicio = LocalDate.now();
         this.fechaFin = LocalDate.now().plusDays(Prestamo.PLAZO);
     }
+
+    public Usuario getUsuario() {
+        return this.usuario;
+    }
+
+    public Libro getLibro() {
+        return this.libro;
+    }
     
     
 }
