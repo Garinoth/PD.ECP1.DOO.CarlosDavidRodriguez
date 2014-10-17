@@ -1,22 +1,28 @@
 package biblioteca.models;
 
 public class Libro {
+
+    private String titulo;
+    private String autor;
+    private int isbn;
     
     public Libro(String titulo, String autor, int isbn) {
         super();
-
+        this.titulo = titulo;
+        this.autor = autor;
+        this.isbn = isbn;
     }
 
     public String getTitulo() {
-        return null;
+        return titulo;
     }
 
     public String getAutor() {
-        return null;
+        return autor;
     }
 
     public int getIsbn() {
-        return 0;
+        return isbn;
     }
 
 }
