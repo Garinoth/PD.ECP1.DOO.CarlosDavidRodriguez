@@ -15,6 +15,7 @@ public abstract class Gestor<E> {
     }
     
     public void remove(E item) {
+        assert this.colleccion.contains(item);
         this.colleccion.remove(item);
     }
     
