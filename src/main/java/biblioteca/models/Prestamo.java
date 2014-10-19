@@ -25,6 +25,18 @@ public class Prestamo {
     public Libro getLibro() {
         return this.libro;
     }
+
+    public LocalDate getFechaInicio() {
+        return fechaInicio;
+    }
+
+    public LocalDate getFechaFin() {
+        return fechaFin;
+    }
     
+    @Override
+    public String toString() {
+        return "Prestamo[" + libro.toString() + ", " + usuario.toString() + "]";
+    }
     
 }

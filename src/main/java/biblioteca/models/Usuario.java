@@ -11,4 +11,9 @@ public class Usuario {
     public String getName() {
         return this.name;
     }
+    
+    @Override
+    public String toString() {
+        return "Usuario[" + name +"]";
+    }
 }

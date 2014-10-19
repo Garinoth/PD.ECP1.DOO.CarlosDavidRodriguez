@@ -24,5 +24,10 @@ public class Libro {
     public int getIsbn() {
         return isbn;
     }
+    
+    @Override
+    public String toString() {
+        return "Libro[" + titulo + ", " + autor + ", " + isbn +"]";
+    }
 
 }
